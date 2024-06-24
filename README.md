@@ -16,4 +16,5 @@ I have applied simple data augmentation to the different splits. The images were
 
 <h3>Convolutional Neural Networks: </h3>
 A Convolutional Neural Network (CNN) is a type of deep learning algorithm specifically designed for processing and analyzing visual data. CNNs are widely used in image recognition, computer vision, and various other tasks involving visual inputs due to their ability to automatically and adaptively learn spatial hierarchies of features from images. There networks are built by comprising convolutional layers as the main computational units. The main advantage of such layers is that they greatly reduce the number of parameters to be trained while efficiently capturing image features. 
-Please view: 
+You can view the following animation to get an idea on how convolutional layers work.
+![](https://github.com/rajdeep-basu/Pneumonia-Detection/blob/main/Convolutional%20Layer.gif)
