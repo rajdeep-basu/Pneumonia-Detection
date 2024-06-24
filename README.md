@@ -1,11 +1,11 @@
 <h1>Pneumonia Detection Deep Neural Network Model</h1>
-<h2>Aim: <h2>
-Pneumonia, an inflammatory condition of the lungs, is a leading cause of morbidity and mortality worldwide. Early and accurate diagnosis is crucial for effective treatment and better patient outcomes. Traditional methods for diagnosing pneumonia, such as chest X-rays, rely heavily on the expertise of radiologists, which can lead to variability in interpretation and potential delays in diagnosis. To address these challenges, this project aims to develop a robust Pneumonia Detection algorithm leveraging deep learning techniques.
+<h2>Aim: </h2>
+<h2>Pneumonia, an inflammatory condition of the lungs, is a leading cause of morbidity and mortality worldwide. Early and accurate diagnosis is crucial for effective treatment and better patient outcomes. Traditional methods for diagnosing pneumonia, such as chest X-rays, rely heavily on the expertise of radiologists, which can lead to variability in interpretation and potential delays in diagnosis. To address these challenges, this project aims to develop a robust Pneumonia Detection algorithm leveraging deep learning techniques.</h2>
 
 <h2>About Pneumonia: </h2>
-Pneumonia is a lung infection that makes it hard to breathe. It can be caused by bacteria, viruses, or fungi. When someone has pneumonia, the tiny air sacs in their lungs fill with fluid, causing symptoms like coughing, fever, chills, and difficulty breathing.
-Anyone can get pneumonia, but it is more dangerous for very young children, elderly people, and those with other health problems. Doctors use chest X-rays and other tests to diagnose pneumonia and usually treat it with medications to fight the infection. Early treatment is important to avoid serious complications.
+<h2>Pneumonia is a lung infection that makes it hard to breathe. It can be caused by bacteria, viruses, or fungi. When someone has pneumonia, the tiny air sacs in their lungs fill with fluid, causing symptoms like coughing, fever, chills, and difficulty breathing.
+Anyone can get pneumonia, but it is more dangerous for very young children, elderly people, and those with other health problems. Doctors use chest X-rays and other tests to diagnose pneumonia and usually treat it with medications to fight the infection. Early treatment is important to avoid serious complications.</h2>
 
 <h2>Step-by-step procedure: </h2>
-<h3>Dataset: </h3>
+<h2>Dataset: </h2>
 I have used a Chest X-Ray dataset from <a href="https://www.kaggle.com/">Kaggle</a> (link at the end of this subpoint). There are 5856 Chest X-Ray examples in total.
