@@ -28,8 +28,12 @@ You can see the neural network in the below image:
 <p><img src="./Performance_Graphs.png"</p>
 The above graph shows the different model performance parameter graphs that I have plotted using matplotlib. Below are the descriptions of each performance parameter.
 <ol>
-  <li>Training Loss vs Validation Loss</li>
-  <li>Training AUC vs Cross-Validation AUC:</li>
-  <li>Confusion Matrix:</li>
-  <li>Region Of Convergence:</li>
+  <li>Training Loss vs Validation Loss: </li>
+  From this curve, it can be seen that the training and cross-validation losses converge quite well. There are some osscilations here and there but the end results seem very promising. We can see that overall, as the number of epochs increases, the overall losses decrease.
+  <li>Training AUC vs Cross-Validation AUC: </li>
+  The AUC score clearly shows how, as the learning steps increased the score increased rapidly, then flatlined at the top. This is very good results.
+  <li>Confusion Matrix: </li>
+  Confusion matrix was one of the more important metrics specially in this application as I had to keep a close eye on the recall of this algorithm. In the end it can be seen that the network was able to achieve a high recall system.
+  <li>Region Of Convergence: </li>
+  Finally, this curve shows us how better our neural network is compared to an algorithm that gets correct predictions 50% of the time (Randomly flagging positives). The general rule is the ROC should be kept as close to the top left corner as possible. As this approaches the middle, the performance gets worse.
 </ol>
