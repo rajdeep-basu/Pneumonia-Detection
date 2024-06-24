@@ -8,4 +8,5 @@ Anyone can get pneumonia, but it is more dangerous for very young children, elde
 
 <h2>Step-by-step procedure: </h2>
 <h2>Dataset: </h2>
-I have used a Chest X-Ray dataset from <a href="https://www.kaggle.com/">Kaggle</a> (link at the end of this subpoint). There are 5856 Chest X-Ray examples in total.
+<h2>I have used a Chest X-Ray dataset from <a href="https://www.kaggle.com/">Kaggle</a> (link at the end of this subpoint). There are 5856 Chest X-Ray examples in the dataset. The dataset is already split into train, cross-validation and test set. However, the main problem with the predefined split is that instead of a standard split of 70-15-15 , the validation set was around 0.27% of the dataset. Training a neural network with this split would give very bad results no matter what hyperparameter tuning or regularization I do. So, ultimately I did my own split of 70-20-10 on the dataset with a distribution of about 70% images for Pneumonia Positive and 30% for Pneumonia Negative.
+Dataset Link: <a href="https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia">Pneumonia Dataset</a>.</h2>
