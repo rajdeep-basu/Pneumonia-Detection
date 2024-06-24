@@ -22,7 +22,7 @@ You can view the following animation to get an idea on how convolutional layers 
 <h3>Neural Network Architecture: </h3>
 In this section, I will show you the neural network used for this task. This is a Binary Classification task, where the model outputs the probability of an image being of Class 0: Pneumonia Negative or Class 1: Pneumonia Positive. This has been achieved by three Convolutional + MaxPooling layers. These layers can efficiently identify properties of the input image, and output another volume. However, in order to make predictions, this volume must to flattened to a 2-Dimentional Vector. Then this vector is passed as an input to 2 fully-connected dense layers. I have used a Relu activation for all the layers except the last layer (which uses sigmoid activation), because it is a binary classification.
 You can see the neural network in the below image:
-<p><img src=""></p>
+<p><img src="./CNN.png"></p>
 
 <h3>Model Performance: </h3>
 <p><img src="./Performance_Graphs.png"</p>
