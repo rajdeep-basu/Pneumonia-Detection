@@ -37,3 +37,5 @@ The above graph shows the different model performance parameter graphs that I ha
   <li>Region Of Convergence: </li>
   Finally, this curve shows us how better our neural network is compared to an algorithm that gets correct predictions 50% of the time (Randomly flagging positives). The general rule is the ROC should be kept as close to the top left corner as possible. As this approaches the middle, the performance gets worse.
 </ol>
+<h2>Conclusion: </h2>
+In a use case like Pneumonia Detection, it can be disastrous to a patient if the number of False Negatives (Has Pneumonia but was not detected), is high. However, it is not as big of an issue if the number of False Positives (Doesn't have Pneumonia but was still flagged positive) is slightly high. From the above metrics, it can be seen that the Neural Network was able to achieve that result quite promisingly. The False Negative rate is extremely low (0.51%) and the False Positive Rate is not very high (11.47%).
